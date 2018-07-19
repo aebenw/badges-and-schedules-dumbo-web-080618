@@ -17,5 +17,11 @@ def assign_rooms(array)
   end
   return arr
 end
-    
+
+def printer
+  badge_maker(name)
+  assign_rooms(array).each do |it|
+    puts "#{it}"
+  end
+end
   
