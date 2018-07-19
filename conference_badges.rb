@@ -13,7 +13,8 @@ end
 def assign_rooms(array)
   str = ""
   array.each_with_index do |names, i|
-    str << "Hello, #{names}! You'll be assigned to room #{i+1}! "
+    str << "Hello, #{names}! You'll be assigned to room #{i+1}! 
+    "
   end
   return arr
 end
