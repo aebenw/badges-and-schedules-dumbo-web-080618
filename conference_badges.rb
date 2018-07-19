@@ -18,9 +18,9 @@ def assign_rooms(array)
   return arr
 end
 
-def printer
-  badge_maker(name)
-  assign_rooms(array).each do |it|
+def printer(attendees)
+  badge_maker(attendees)
+  assign_rooms(attendees).each do |it|
     puts "#{it}"
   end
 end
